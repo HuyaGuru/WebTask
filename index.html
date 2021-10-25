@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebTask</title>
+		<link rel="stylesheet" href="./css/main.css" />
+		<script src="./js/main.js" defer></script>
+	</head>
+	<body>
+		<div class="ai-c d-f fd-c">
+			<h1 class="brand c-p fw-4">TFC</h1>
+			<h2 class="sub-brand c-p ta-c fw-4">The Film Catalogue</h2>
+		</div>
+		<div class="d-f jc-c cg-1">
+			<button onclick="handleAddOnClick()" class="bc-n c-p">
+				<h3 id="addButtonText" class="fw-4">Add a Movie</h3>
+			</button>
+		</div>
+		<div id="showList" class="d-f c-p cg-1">
+			<div class="card">
+				<h4>Godzilla vs. Kong</h4>
+				<p class="year">2021</p>
+			</div>
+			<div class="card">
+				<h4>Godzilla: King of the Monsters</h4>
+				<p class="year">2019</p>
+			</div>
+			<div class="card">
+				<h4>Shin Godzilla</h4>
+				<p class="year">2016</p>
+			</div>
+			<div class="card">
+				<h4>Godzilla</h4>
+				<p class="year">2014</p>
+			</div>
+		</div>
+		<div id="addPage" class="hidden c-p">
+			<form class="d-f rg-1 fd-c ai-c">
+				<div class="d-f cg-1">
+					<div>
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name" size="24" class="input" required />
+					</div>
+					<div>
+						<label for="year">Year:</label>
+						<input type="text" name="year" id="year" size="4" class="input" required />
+					</div>
+				</div>
+				<button type="submit" class="bc-n c-p">
+                    <span class="fs-1 c-s">Submit</span>
+                </button>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+	font-size: 16px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05rem;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #212121;
+}
+button {
+	border: none;
+	padding: 0.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05rem;
+    box-sizing: border-box;
+}
+button:hover {
+	border-bottom: 0.1rem solid white;
+}
+button:active {
+    background-color: #004428;
+}
+h1, h3, h4, p {
+	margin: 0;
+    font-weight: 400;
+}
+#showList, #addPage {
+    margin: 1rem 0rem;
+}
+.brand {
+	font-family: "Cormorant", 'Times New Roman', Times, serif;
+	font-size: 4rem;
+	text-align: center;
+    letter-spacing: 0.5rem;
+    border: 0.1rem solid white;
+    width: fit-content;
+    padding: 0rem 1rem;
+}
+.card {
+    border-left: 0.1rem solid rgb(145, 255, 0);
+    padding: 1rem;
+    color: #ffffff;
+}
+.card:hover {
+    background-color: rgba(145, 255, 0, 0.048);
+}
+.input {
+    align-self: right;
+    outline: none;
+    border: none;
+}
+.year {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+}
+/* utility classes */
+.hidden {
+	display: none;
+}
+.visible {
+	display: block;
+}
+/* align items */
+.ai-c {
+    align-items: center;
+}
+/* background */
+.bc-n {
+	background-color: rgba(0, 0, 0, 0);
+}
+/* color */
+.c-p {
+	color: white;
+}
+.c-s {
+    color: rgb(186, 248, 105);
+}
+/* column gap */
+.cg-1 {
+	column-gap: 1rem;
+}
+/* display */
+.d-f {
+	display: flex;
+}
+/* font size */
+.fs-1 {
+    font-size: 1rem;
+}
+/* font weight */
+.fw-4 {
+    font-weight: 400;
+}
+/* flex direction */
+.fd-c {
+    flex-direction: column;
+}
+/* justify content */
+.jc-c {
+	justify-content: center;
+}
+/* row gap */
+.rg-1 {
+    row-gap: 1rem;
+}
+/* text align */
+.ta-c {
+    text-align: center;
+}
+/* width */
+.w-100 {
+    width: 100%;
+}
